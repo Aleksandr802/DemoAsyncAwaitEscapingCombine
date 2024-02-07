@@ -11,7 +11,7 @@ import SwiftUI
 struct DemoAsyncAwaitEscapingCombineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DownloadImageAsync()
         }
     }
 }
